@@ -1,3 +1,6 @@
 Hello Hardik
 Hello Deeksha
-Hello bhavesh
+<<<<<<< HEAD
+Hello bhavesh & Hello Deeksha 1
+
+
