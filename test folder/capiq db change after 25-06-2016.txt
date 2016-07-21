@@ -1,0 +1,23 @@
+ALTER TABLE  `tbl_store_grn_items` CHANGE  `certificate_attach`  `certificate_attach` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL;
+
+ALTER TABLE  `tbl_store_grn` CHANGE  `attachment`  `attachment` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL;
+
+ALTER TABLE  `tbl_purchase_order_master` ADD  `comment` TEXT NULL;
+
+
+
+/////////////// DB CHANGES AFTER 01-07-2016
+
+INSERT INTO `capiqerp`.`tbl_role_master` (`id`, `name`) VALUES (NULL, 'Purchase Manager');
+
+
+
+ALTER TABLE `tbl_store_assembly_planning` CHANGE `sales_rep_id` `sales_rep_id` INT( 11 ) NOT NULL DEFAULT '0',
+CHANGE `vendor_rep_id` `vendor_rep_id` INT( 11 ) NOT NULL DEFAULT '0';
+
+
+ALTER TABLE `tbl_lead_master` CHANGE `expected_closing_amt` `expected_closing_amt` DECIMAL( 12, 2 ) NOT NULL DEFAULT '0.00'
+
+ALTER TABLE  `tbl_purchase_order_master` ADD  `company_id` INT NOT NULL DEFAULT  '0' AFTER  `id`;
+
+ALTER TABLE `tbl_store_item_master` ADD `bought_price` DECIMAL( 18, 2 ) NULL DEFAULT '0.00' AFTER `is_assembly`;
