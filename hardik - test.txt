@@ -16,5 +16,9 @@ Hii new changes 1
 
 Hii new changes 2
 This changes are important
+<<<<<<< HEAD
 new change hardik
+=======
+new change bhavesh
+>>>>>>> 16423506e19521131a167b27a11661cf1c5de3b0
 
