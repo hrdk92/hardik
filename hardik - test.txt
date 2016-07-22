@@ -15,9 +15,5 @@ Hello Hardik Gandhi
 Hii new changes 1
 
 Hii new changes 2
-<<<<<<< HEAD
-new changes by hardik
-=======
-new changes by bhavesh
->>>>>>> a92e9fd47eaf85ddc943e313c3dd9f798343f215
+
 
