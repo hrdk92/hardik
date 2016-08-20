@@ -1,6 +1,6 @@
 Hello Hardik
 Hello Deeksha
-
+<<<<<<< HEAD
 Hello bhavesh & Hello Deeksha 1
 Hello Parth
 
@@ -8,16 +8,17 @@ Hello kunal
 
 
 Hello Trushit &  xyz
-Hello Bhavesh Agrawal
+
 
 Hello Hardik Gandhi
 
 Hii new changes 1
 
 Hii new changes 2
+This changes are important
 <<<<<<< HEAD
-new changes by hardik
+new change hardik
 =======
-new changes by bhavesh
->>>>>>> a92e9fd47eaf85ddc943e313c3dd9f798343f215
+new change bhavesh
+>>>>>>> 16423506e19521131a167b27a11661cf1c5de3b0
 
