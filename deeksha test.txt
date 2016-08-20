@@ -1,7 +1,3 @@
 Hello.
 hi123456
-<<<<<<< HEAD
 hello from hardik
-=======
-hello from bhavesh
->>>>>>> 7fd0680f0d26a37c06f41cb834e5f3c43aecc87a
